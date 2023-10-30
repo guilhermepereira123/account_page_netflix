@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin-right: 500px;
+    letter-spacing: 8px;
+}
+.counts ul{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.gerents button{
+    background-color: black;
+    color: #ffffff45;
+    border-color: #ffffff45;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.counts li{
+    margin-right: 40px;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 75%;
+    height: 50px;
+    margin-top: -125px;
+    margin-left: -300px;
+}
+
+.counts a img {
+    width: 100%;
+}
